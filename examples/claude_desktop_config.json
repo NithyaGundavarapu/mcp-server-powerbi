@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "powerbi": {
+      "command": "python",
+      "args": ["-m", "powerbi_mcp_server.server"],
+      "cwd": "C:/Users/gunda/OneDrive/Desktop/mcp server poweerbi",
+      "env": {
+        "POWERBI_TENANT_ID": "your-tenant-id",
+        "POWERBI_CLIENT_ID": "your-client-id",
+        "POWERBI_CLIENT_SECRET": "your-client-secret"
+      }
+    }
+  }
+}
