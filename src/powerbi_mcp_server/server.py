@@ -4,8 +4,11 @@ import os
 from typing import Any
 
 import httpx
+import truststore
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
+
+truststore.inject_into_ssl()
 
 
 class PowerBIAPIError(RuntimeError):
