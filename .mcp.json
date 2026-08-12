@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "powerbi": {
+      "type": "stdio",
+      "command": "./.venv/Scripts/python.exe",
+      "args": [
+        "src/powerbi_mcp_server/server.py"
+      ],
+      "env": {}
+    }
+  }
+}
